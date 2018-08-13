@@ -1,5 +1,4 @@
 FROM node:0.10
-MAINTAINER Benjamin Hutchins <ben@hutchins.co>
 
 COPY taiga-events /usr/src/taiga-events
 COPY config.json /usr/src/taiga-events/config.json
