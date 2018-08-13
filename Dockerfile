@@ -1,4 +1,4 @@
-FROM node:0.10
+FROM node:6.14
 
 COPY taiga-events /usr/src/taiga-events
 COPY config.json /usr/src/taiga-events/config.json
